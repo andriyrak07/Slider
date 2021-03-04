@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#slide {
+    width: 700px;
+    height: 400px;
+    border: 5px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#polosa img {
+    float: left;
+}
+
+#polosa {
+    width: 2800px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+img {
+    width: 700px;
+    height: 400px;
+}
+#polosa::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.but {
+    position: absolute;
+    width: 700px;
+    top: 36%;
+    margin: auto;
+}
+#prev, #next {
+    float: left;
+    cursor: pointer;
+    color: white;
+
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.3 linear;
+    background-color:  rgba(122, 122, 122, 0.4);
+    text-align: center;
+}
+#next {
+    float: right;
+}
+
+#prev:hover, #next:hover {
+    background-color: rgba(211, 211, 211, 0.3);
+    transition: 0.6s linear;
+}
+/* .fade {
+    left: 0;
+    position: relative;
+    animation-name: fade;
+    animation-duration: 1.5s;
+} */
+/* @keyframes fade {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+} */
+
