@@ -56,18 +56,4 @@ img {
     background-color: rgba(211, 211, 211, 0.3);
     transition: 0.6s linear;
 }
-/* .fade {
-    left: 0;
-    position: relative;
-    animation-name: fade;
-    animation-duration: 1.5s;
-} */
-/* @keyframes fade {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(100%);
-    }
-} */
 
